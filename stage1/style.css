@@ -1,0 +1,61 @@
+/* CSS file for stage 1 web page of Alex Cordy */
+
+/* Global settings */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+} 
+
+.title {
+	margin : auto;
+    height : 150px;
+    min-width: 400px;
+    text-align: center;
+    /* choosing a "backup" font in case the first would not be known by the browser */
+	font-family:  Georgia, Arial, Serif;
+	font-size: 1.7em;
+	background-color : DarkGoldenRod; 
+}
+
+/* To get 5 equal length images on the entire width of the page */
+.thumbnail  {
+	min-width: 20%;
+}
+
+/* This allows to keep the ratio of all images */
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* Using flex boxing to allow horizontal alignement of the div's boxes within class index*/
+.index {
+    display: -webkit-flex;
+    display: flex;
+}
+
+
+.record {
+    display: -webkit-flex;
+    display: flex;
+}
+
+div.record {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+.text {
+	padding-left: 5px;
+	font-size: 1.5em;
+	min-width: 40%;
+	background-color : coral;
+}
+
+.image {
+	min-width: 60%;
+}
+
